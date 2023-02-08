@@ -1,8 +1,11 @@
 * {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
-
+a{
+    text-decoration: none;
+}
 .text-primary {
     color: orange;
 }
@@ -189,4 +192,29 @@ main{
 
 .resume .des{
     color: #757575;
+}
+
+/* Contact Styles */
+.contact
+{
+    display: flex;
+    gap: 100px;
+    background-color: antiquewhite;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input[type="text"],  textarea{
+
+    margin-bottom: 24px;
+    border: 0;
+    width: 80%;
+    padding: 18px 20px;
+}
+
+input{
+    height: 60px;
+
 }
