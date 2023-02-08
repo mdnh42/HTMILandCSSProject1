@@ -160,4 +160,33 @@ main{
 .resume-container
 {
     display: flex;
+    text-align: left;
+}
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-item{
+    margin: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .des{
+    color: #757575;
 }
