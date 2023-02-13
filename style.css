@@ -12,9 +12,10 @@ a{
 .header
 {
     background-color: #FFF8F3 ;
-    background-image: url('/images/header_bg.png'), url(/images/developer.png);
+    width: 100%;
+    /* background-image: url('/images/header_bg.png'), url(/images/developer.png);
     background-repeat: no-repeat;
-    background-position: right, left;
+    background-position: right, left; */
 }
 .btn-primary {
     color: #fff;
@@ -71,6 +72,7 @@ nav ul {
     margin: 0 200px;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .banner-subtitle{
@@ -90,6 +92,9 @@ nav ul {
     font-size: 18px;
     margin: 20px 0px;
 }
+.banner img{
+    /* width: 100%; */
+}
 
 main{
     max-width: 1140px;
@@ -100,7 +105,6 @@ main{
     margin-top: 20px;
     background-color: #FFF8F3;
     border-radius: 10px;
-    padding: 130px 150px;
     text-align: center;
 }
 
@@ -156,7 +160,7 @@ main{
     background:#FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-    padding: 30px;
+    padding: 20px;
 
 }
 
@@ -217,4 +221,23 @@ main{
 input{
     height: 60px;
 
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 576px) {
+    .banner, .skill-container, .resume-content, .about, .about-info-container, .contact{
+       flex-direction: column;
+       padding: 50px 10px;
+    
+    }
+    
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+    
+}
+
+.hide{
+    display: none;
 }
